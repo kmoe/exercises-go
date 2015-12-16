@@ -16,5 +16,5 @@ func main() {
   var adverb string
   fmt.Scanln(&adverb)
 
-  fmt.Println("Do you", verb, "your", adjective, noun, adverb + "? That's hilarious!")
+  fmt.Printf("Do you %v your %v %v %v? That's hilarious!", verb, adjective, noun, adverb)
 }
