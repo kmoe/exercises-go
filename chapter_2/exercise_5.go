@@ -14,10 +14,6 @@ func main() {
   var firstNumber, _ = strconv.ParseFloat(first, 64)
   var secondNumber, _ = strconv.ParseFloat(second, 64)
 
-  // if firstNumber, err := strconv.ParseFloat(first, 64); err == nil {
-
-  // }
-
   fmt.Println(first, "+", second, "=", firstNumber + secondNumber,
               "\n" + first, "-", second, "=", firstNumber - secondNumber,
               "\n" + first, "*", second, "=", firstNumber * secondNumber,
