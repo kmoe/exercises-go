@@ -19,7 +19,7 @@ func main() {
   var length, _ = strconv.ParseFloat(lengthString, 64)
   var width, _ = strconv.ParseFloat(widthString, 64)
 
-  var areaInSquareFeet float64 = length * width
+  var areaInSquareFeet = length * width
   var areaInSquareMetres = areaInSquareFeet * conversionFactor
 
   fmt.Println(areaInSquareFeet, "square feet")

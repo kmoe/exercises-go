@@ -5,7 +5,7 @@ import "strconv"
 import "math"
 
 func main() {
-  const squareFeetPerGallon float64 = 350
+  const squareFeetPerGallon = 350
 
   fmt.Print("What is the length of the room in feet? ")
   var lengthString string
@@ -17,11 +17,11 @@ func main() {
   var length, _ = strconv.ParseFloat(lengthString, 64)
   var width, _ = strconv.ParseFloat(widthString, 64)
 
-  var area float64 = length * width
+  var area = length * width
 
-  var gallons float64 = area / squareFeetPerGallon
+  var gallons = area / squareFeetPerGallon
 
-  var gallonsNeeded float64 = math.Ceil(gallons)
+  var gallonsNeeded = math.Ceil(gallons)
 
   fmt.Println("You will need to purchase", gallonsNeeded, "gallons of paint to cover", area, "square feet.")
 }

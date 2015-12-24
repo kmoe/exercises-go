@@ -18,5 +18,4 @@ func main() {
               "\n" + first, "-", second, "=", firstNumber - secondNumber,
               "\n" + first, "*", second, "=", firstNumber * secondNumber,
               "\n" + first, "/", second, "=", firstNumber / secondNumber)
-
 }

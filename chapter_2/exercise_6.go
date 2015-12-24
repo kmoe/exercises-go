@@ -17,8 +17,8 @@ func main() {
 
   var yearsUntilRetirement = retirementAge - currentAge
 
-  var currentYear int64 = int64(time.Now().Year())
-  var retirementYear int64 = currentYear + yearsUntilRetirement
+  var currentYear = int64(time.Now().Year())
+  var retirementYear = currentYear + yearsUntilRetirement
 
   fmt.Printf("You have %v years left until you can retire.\n", yearsUntilRetirement)
   fmt.Printf("It's %v, so you can retire in %v.", currentYear, retirementYear)
